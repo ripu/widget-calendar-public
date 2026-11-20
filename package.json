@@ -1,0 +1,20 @@
+{
+  "name": "widget-calendar",
+  "version": "1.3.0",
+  "description": "Widget desktop per Windows 11 che mostra l'agenda di Google Calendar",
+  "main": "src/main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "demo": "electron . --demo",
+    "screenshot": "electron . --demo --screenshot"
+  },
+  "author": "ripu",
+  "license": "MIT",
+  "dependencies": {
+    "node-ical": "^0.27.6"
+  },
+  "devDependencies": {
+    "electron": "^45.4.1"
+  }
+}

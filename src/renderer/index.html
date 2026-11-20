@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'">
+  <title>Widget Calendar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <header class="head">
+      <div>
+        <div class="weekday" id="weekday"></div>
+        <div class="date" id="date"></div>
+      </div>
+      <div class="right">
+        <nav class="actions">
+          <button id="btn-refresh" title="Aggiorna (R)" aria-label="Aggiorna">⟳</button>
+          <button id="btn-theme" title="Tema chiaro/scuro (T)" aria-label="Cambia tema">◐</button>
+          <button id="btn-pin" title="Sempre in primo piano (P)" aria-label="Sempre in primo piano">📌</button>
+          <button id="btn-guide" title="Guida (G)" aria-label="Guida">📖</button>
+          <button id="btn-hide" title="Nascondi (Esc)" aria-label="Nascondi">✕</button>
+        </nav>
+        <time class="clock" id="clock"></time>
+      </div>
+    </header>
+    <section id="next" class="next" hidden aria-live="polite"></section>
+    <section id="list" class="list" aria-live="polite">
+      <div class="state"><span class="spinner"></span> Caricamento…</div>
+    </section>
+    <footer class="foot" id="foot"></footer>
+  </main>
+  <script src="renderer.js"></script>
+</body>
+</html>

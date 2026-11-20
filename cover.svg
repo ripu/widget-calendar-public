@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="Segoe UI, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Emblema: il widget stesso, una card agenda -->
+  <g transform="translate(90 120)">
+    <rect width="330" height="390" rx="26" fill="#182032" stroke="#334155"/>
+    <text x="28" y="50" fill="#60a5fa" font-size="16" font-weight="600" letter-spacing="2">VENERDÌ</text>
+    <text x="28" y="88" fill="#f1f5f9" font-size="34" font-weight="700">20 novembre</text>
+    <line x1="0" y1="112" x2="330" y2="112" stroke="#334155"/>
+    <text x="28" y="146" fill="#60a5fa" font-size="14" font-weight="600" letter-spacing="1.5">OGGI</text>
+    <rect x="22" y="160" width="4" height="50" fill="#60a5fa"/>
+    <text x="38" y="181" fill="#94a3b8" font-size="16">09:30</text>
+    <text x="110" y="181" fill="#f1f5f9" font-size="17" font-weight="600">Standup team</text>
+    <text x="110" y="202" fill="#94a3b8" font-size="14">Google Meet</text>
+    <rect x="22" y="222" width="4" height="50" fill="#f472b6"/>
+    <rect x="26" y="222" width="284" height="50" fill="#f472b6" opacity="0.12"/>
+    <text x="38" y="243" fill="#94a3b8" font-size="16">11:00</text>
+    <text x="110" y="243" fill="#f1f5f9" font-size="17" font-weight="600">Revisione progetto</text>
+    <text x="110" y="264" fill="#94a3b8" font-size="14">Sala riunioni</text>
+    <text x="28" y="312" fill="#94a3b8" font-size="14" font-weight="600" letter-spacing="1.5">DOMANI</text>
+    <rect x="22" y="326" width="4" height="40" fill="#60a5fa"/>
+    <text x="38" y="352" fill="#94a3b8" font-size="16">10:00</text>
+    <text x="110" y="352" fill="#f1f5f9" font-size="17" font-weight="600">Call fornitore</text>
+  </g>
+
+  <text x="500" y="270" font-size="76" font-weight="800"><tspan fill="#60a5fa">Widget</tspan><tspan fill="#f1f5f9"> Calendar</tspan></text>
+  <text x="502" y="322" fill="#94a3b8" font-size="26">La tua agenda Google, sempre sul desktop</text>
+
+  <g font-size="20" fill="#e2e8f0">
+    <rect x="502" y="360" width="214" height="44" rx="22" fill="#1e3a8a" opacity="0.7"/>
+    <text x="524" y="389">📅 Google Calendar</text>
+    <rect x="730" y="360" width="176" height="44" rx="22" fill="#1e3a8a" opacity="0.7"/>
+    <text x="752" y="389">🔒 Solo lettura</text>
+    <rect x="920" y="360" width="150" height="44" rx="22" fill="#1e3a8a" opacity="0.7"/>
+    <text x="942" y="389">⌨️ Shortcut</text>
+  </g>
+
+  <text x="90" y="590" fill="#64748b" font-size="20">App desktop · Windows 11</text>
+</svg>

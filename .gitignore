@@ -1,0 +1,7 @@
+node_modules/
+.env
+log/
+out/
+tests/qa_screenshots/
+CHAT.md
+CHAT-*.md
